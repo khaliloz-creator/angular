@@ -5,8 +5,9 @@ import{ Produit } from '../model/produit.model';
   providedIn: 'root'
 })
 export class ProduitService {
+
   produits : Produit[]; 
-  static listeProduits: any;
+  
 
   constructor() { 
     this.produits = [
